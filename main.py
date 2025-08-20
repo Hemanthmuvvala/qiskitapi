@@ -5,7 +5,6 @@ from typing import List, Optional, Literal, Dict
 
 from qiskit import QuantumCircuit
 from qiskit.quantum_info import Statevector, DensityMatrix, partial_trace, Operator, Pauli
-from qiskit_aer import Aer
 import numpy as np
 
 app = FastAPI(title="Quantum State Visualizer API", version="0.1")
